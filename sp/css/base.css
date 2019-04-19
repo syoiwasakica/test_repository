@@ -1,0 +1,188 @@
+/* CSS Document */
+@charset "UTF-8";
+html,
+body{
+    background-color: #FFFFFF;
+}
+.respon.clearfix img{
+    width: 100%;
+}
+.respon.clearfix a{
+    display: block;
+}
+.shingo{
+    font-family: "a-otf-ud-shin-go-pr6n";
+}
+.ryo-go{
+    font-family: "ryo-gothic-plusn";
+}
+.jun{
+    font-family: "a-otf-jun-pro";
+}
+#home_body{
+    margin: 5px auto 0;
+}
+.respon a{
+    width: 50%;
+    display:inline-block;
+}
+.contents{
+    width: 100%;
+    margin: 0 auto 5px;
+    display: block;
+    font-weight: bold;
+    font-size:13px;
+}
+ul.add{
+    display: block;
+    width: 94%;
+    text-align: left;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+ul.add li{
+    list-style-type: none;
+    font-size: 9px;
+    text-align: right;
+    letter-spacing: -1px;
+}
+.contents p{
+    text-align: center;
+}
+.contents p.max{
+    margin-bottom: 0;
+}
+.image img{
+    display: block;
+    width: 100%;
+    margin:0 auto;
+}
+.image_b img{
+    width: 100%;
+}
+h1{
+	margin: 0;
+}
+
+h2{
+	font-size:14px;
+    text-align:center;
+    margin-top: 45px;
+}
+.info{
+    width:100%;
+    display: block;
+    margin: 30px auto 5px;
+    color:#666;
+}
+.info img{
+    width:100%;
+    display: block;
+
+}
+.info .time{
+    text-align:center;
+}
+.info ul{
+    display: inline-block;
+    border: #666 solid 1px;
+    padding-left:0px;
+    margin: 0 ;
+}
+.info ul li{
+    list-style: none;
+    border-bottom: #666 solid 1px;
+    font-size:11px;
+    padding: 5px;
+}
+
+.info ul li:last-child{
+    border-bottom:none;
+}
+.info .medium{
+    margin-right: 10px;
+}
+#FAQ {
+    margin-bottom: 21px;
+}
+/* font */
+.heed{
+    color: red;
+    font-size: 19px;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.green{
+    color:green;
+}
+.large{
+    font-size: 19px;
+    font-weight: bold;
+}
+.medium{
+    font-size: 15px;
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}
+
+/*=========================
+sp 
+==========================*/
+
+.ResBNR_Area_sp{
+	margin: 0 auto;
+
+}
+
+.ResBNR_Tbl_sp{
+    background-color: #fed900 !important;
+	text-align: center;
+	padding: 3px 0 0 0;
+	width:100%;
+	margin: 0 auto;
+}
+
+.ResBNR_sp{
+	width: 50%;
+	display: table-cell;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.ResBNR_sp img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+/*=========================
+footer
+==========================*/
+#footer table td,
+#footer table td a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 25%;
+}
+
+.drawer-toggle{
+    padding: 0;
+    width: 100%;
+}
+
+.drawer-hamburger{
+    position: static;
+}
+
+.drawer-hamburger i.fa{
+    margin-top: 10px;
+}
